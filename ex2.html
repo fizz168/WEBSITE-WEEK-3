@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration Form</h1><br>
+    <label for = "Full Name">Full Name</label>
+    <input type = "text" id = "Full Name" name = "Full Name" value""><br> 
+    <label for = "Email">Email</label>
+    <input type = "text" id = "Email" name = "Email" value""><br>
+    <label for = "Password">Password</label>
+    <input type = "text" id = "Password" name = "Password"value""><br> 
+    <h2>Gender</h2>
+    <input type = "checkbox" id = "Male" name  = "gender"value = "Male">
+    <label for = "Male">Male</label>
+    <input type = "checkbox" id = "Female" name = "gender"value = "Female">
+   <label for = "Female">Female</label>
+  <input type = "checkbox" id = "Other" name = "gender" value = "Other">
+  <label for = "Other">Other</label><br>
+  <h1>Hobbie</h1>
+  <input type = "checkbox" id = "Reading" name = "Hobbie" value = "Reading">
+  <label for = "Reading">Reading</label>
+  <input type = "checkbox" id = "Sports" name = "Hobbie" value = "Sports">
+  <label for = "Sports">Sports</label>
+  <input type = "checkbox" id = "Music" name = "Hobbie" value "Music">
+  <label for = "Music">Music</label>
+  <form> 
+    <label for = "Country">Country</label>
+    <select id = "Country" name = "Country">
+        <option value = "--Select--">--Select--</option>
+        <option value = "China">China</option>
+        <option value = "USA">USA   </option>
+    </select>
+  </form>
+  <label for = "upload file">Upload Profile Picture</label>
+  <input type = "file" id = "upload file" name = "upload" value = "upload file">
+  <form action="/submit" method = "post">
+    <button type = "submit">Register</button>
+  </form>
+
+</body>
+</html>
